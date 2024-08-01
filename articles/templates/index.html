@@ -3,6 +3,7 @@
 {% block body %}
     {% for article in articles %}
         <h1>{{article.title}}</h1>
+        <a href="{% url 'articles:detail' id=article.id %}">detail</a>
         <hr>
     {% endfor %}
 {% endblock %}
