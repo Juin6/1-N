@@ -1,0 +1,1 @@
+django 프레임워크를 이용해서 게시글과 댓글을 interact하는 web 구현
